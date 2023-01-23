@@ -3,11 +3,11 @@
 
 자유롭게 사용할 수 있습니다.
 
-현재 추가된 기능:
+### 현재 추가된 기능:
 
 - 폰, 나이트, 비숍, 룩, 퀸, 킹의 기물 이동 및 제한
 
-앞으로 추가될 기능:
+### 앞으로 추가될 기능:
 
 - 특수규칙 추가
   - 캐슬링, 앙파상, 프로모션
@@ -16,21 +16,21 @@
 - 무승부 추가
   - 스테일메이트, 승리할 수 없는 포지션, 합의 무승부, 3회 동형 포지션, 50수 규칙
 - 기보법 변경
-  - move함수->Universal Chess Interface->Algebraic Notation
+  - move()함수->Universal Chess Interface->Algebraic Notation
 
-초기 화면:
+### 화면 구성 / 사용법:
 
 - 빈 칸은 해당 칸의 위치(e4,h6등)으로 표시힙니다.
 - 기물이 있는 칸은 **W**hite/**B**lack + **P**awn/K**N**ight/**B**ishop/**R**ook/**Q**ueen/**K**ing 으로 표시합니다.
 
 <img width="520" alt="image" src="https://user-images.githubusercontent.com/108802714/213981346-bf8ad6ca-4d30-44d5-bdf1-63c2ad984cfe.png">
 
-move(x1,y1,x2,y2)함수: (x1,y1)에 있던 기물을 (x2,y2)로 옮깁니다.
-drawBoard()함수: 보드를 다시 그려 업데이트 합니다.
+- move(x1,y1,x2,y2)함수: (x1,y1)에 있던 기물을 (x2,y2)로 옮깁니다.
+- drawBoard()함수: 보드를 다시 그려 업데이트 합니다.
 
 <img width="510" alt="image" src="https://user-images.githubusercontent.com/108802714/213982810-e807612d-0915-4c0a-9164-17a7f1a1d0e5.png">
 
-좌표계:
+- 좌표계:
 
 |       | a       | b       | c       | d       | e       | f       | g       | h       |
 |-------|---------|---------|---------|---------|---------|---------|---------|---------|
@@ -43,6 +43,6 @@ drawBoard()함수: 보드를 다시 그려 업데이트 합니다.
 | **2** | _(1,0)_ | _(1,1)_ | _(1,2)_ | _(1,3)_ | _(1,4)_ | _(1,5)_ | _(1,6)_ | _(1,7)_ |
 | **1** | _(0,0)_ | _(0,1)_ | _(0,2)_ | _(0,3)_ | _(0,4)_ | _(0,5)_ | _(0,6)_ | _(0,7)_ |
 
-reset()함수: 보드를 초기 상태로 초기화 합니다.
+- reset()함수: 보드를 초기 상태로 초기화 합니다.
 
 <img width="510" alt="image" src="https://user-images.githubusercontent.com/108802714/213985441-520b1980-9bd9-421e-93fc-fbbd2cec9579.png">
