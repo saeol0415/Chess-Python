@@ -20,6 +20,9 @@
 
 초기 화면:
 
+- 빈 칸은 해당 칸의 위치(e4,h6등)으로 표시힙니다.
+- 기물이 있는 칸은 **W**hite/**B**lack + **P**awn/K**N**ight/**B**ishop/**R**ook/**Q**ueen/**K**ing 으로 표시합니다.
+
 <img width="520" alt="image" src="https://user-images.githubusercontent.com/108802714/213981346-bf8ad6ca-4d30-44d5-bdf1-63c2ad984cfe.png">
 
 move(x1,y1,x2,y2)함수: (x1,y1)에 있던 기물을 (x2,y2)로 옮깁니다.
